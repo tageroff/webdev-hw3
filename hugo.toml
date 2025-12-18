@@ -1,0 +1,27 @@
+baseURL = 'https://tageroff.github.io/webdev-hw3/'
+languageCode = 'ru-RU'
+title = 'Мой сайт по веб-разработке'
+theme = 'PaperMod'
+
+[params]
+author = 'Артем'
+description = 'Пример сайта для HW3 курса веб-разработки'
+homeInfoParams = { Title = 'Добро пожаловать!', Content = 'Это статический сайт, созданный с Hugo для домашнего задания.' }
+
+[[menu.main]]
+identifier = 'home'
+name = 'Главная'
+url = '/'
+weight = 10
+
+[[menu.main]]
+identifier = 'about'
+name = 'О сайте'
+url = '/site/'
+weight = 20
+
+[[menu.main]]
+identifier = 'blog'
+name = 'Блог'
+url = '/posts/'
+weight = 30

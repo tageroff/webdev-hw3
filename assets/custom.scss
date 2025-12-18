@@ -1,0 +1,19 @@
+$primary-color: #667eea;
+$secondary-color: #764ba2;
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    
+    .header {
+        background: linear-gradient(135deg, $primary-color 0%, $secondary-color 100%);
+    }
+    
+    a {
+        color: $primary-color;
+        transition: color 0.3s;
+        
+        &:hover {
+            color: $secondary-color;
+        }
+    }
+}

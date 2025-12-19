@@ -4,7 +4,7 @@ title = 'Мой сайт по веб-разработке'
 theme = 'PaperMod'
 
 [params]
-author = 'Антон'
+author = 'Артем'
 description = 'Пример сайта для HW3 курса веб-разработки'
 homeInfoParams = { Title = 'Добро пожаловать!', Content = 'Это статический сайт, созданный с Hugo для домашнего задания.' }
 
